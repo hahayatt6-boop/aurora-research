@@ -118,6 +118,8 @@ PSM 价格选项用区间中点进行主计算；敏感性分析同时报告下�
 
 表名：`wtp_psm_distribution`
 
+空白模板：[RES-003-WTP-psm-distribution-template.csv](RES-003-WTP-psm-distribution-template.csv)。该模板只能填写聚合后的计数 `n`，不得填入个体级响应。
+
 | scenario | psm_question | price_code | n | pct | cumulative_pct |
 | --- | --- | --- | ---: | ---: | ---: |
 | stated_preference | too_cheap | P00_09 |  |  |  |
@@ -202,6 +204,8 @@ PSM 价格选项用区间中点进行主计算；敏感性分析同时报告下�
 
 表名：`wtp_demand_scenario`
 
+空白模板：[RES-003-WTP-demand-scenario-template.csv](RES-003-WTP-demand-scenario-template.csv)。
+
 | anchor_price_cny | effective_n_main | high_certainty_pct | assumed_conversion_rate | conservative_demand_index | notes |
 | ---: | ---: | ---: | ---: | ---: | --- |
 | 19 |  |  | 30% |  | 不改变 PSM 价格点 |
@@ -209,6 +213,20 @@ PSM 价格选项用区间中点进行主计算；敏感性分析同时报告下�
 | 69 |  |  | 30% |  | 不改变 PSM 价格点 |
 
 `conservative_demand_index = high_certainty_pct_at_price * 30%`。该指标只能表示需求量折减，不能表示保守价格点，也不能把陈述偏好转化为真实购买行为。
+
+## 计算脚本
+
+使用仓库内脚本从聚合表生成价格点和需求量折减结果：
+
+```bash
+python3 scripts/calculate_wtp_psm.py \
+  --psm-input research/RES-003-WTP-psm-distribution-template.csv \
+  --price-output /tmp/res-003-wtp-price-points.csv \
+  --demand-input research/RES-003-WTP-demand-scenario-template.csv \
+  --demand-output /tmp/res-003-wtp-demand-scenario.csv
+```
+
+脚本只接受聚合计数表。不得将原始问卷导出或清洗后个体级数据作为输入。
 
 ## 支付来源和续费预期表
 

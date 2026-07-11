@@ -186,9 +186,11 @@ Aurora 是一个早期产品概念，设想为面向 4-8 岁儿童的 AI 创作�
 
 1. 问卷定稿和招募说明（仓库内只保存无个人信息版本）→ [RES-003-WTP-questionnaire](RES-003-WTP-questionnaire.md)
 2. 聚合数据表：PSM 四问分布、OPP/PMC/PME、分层结果 → [RES-003-WTP-analysis-tables](RES-003-WTP-analysis-tables.md)
-3. 新增 EVD 记录：`EVD-035`，记录定价实验结果和局限
-4. 更新 RES-003：条件 2 是否满足、WTP 置信度是否调整
-5. 更新 HYP-002/HYP-003：若价格不可行，标记商业约束对假设的影响
+3. 空白聚合模板：PSM 分布 [RES-003-WTP-psm-distribution-template.csv](RES-003-WTP-psm-distribution-template.csv)，需求量折减 [RES-003-WTP-demand-scenario-template.csv](RES-003-WTP-demand-scenario-template.csv)
+4. 计算脚本：`python3 scripts/calculate_wtp_psm.py --psm-input <聚合PSM.csv> --price-output <价格点.csv> --demand-input <需求量输入.csv> --demand-output <需求量输出.csv>`
+5. 新增 EVD 记录：`EVD-035`，记录定价实验结果和局限
+6. 更新 RES-003：条件 2 是否满足、WTP 置信度是否调整
+7. 更新 HYP-002/HYP-003：若价格不可行，标记商业约束对假设的影响
 
 ## 时间与预算估计
 
