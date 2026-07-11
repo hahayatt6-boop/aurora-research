@@ -45,3 +45,8 @@ RES-001 已进入 `active`。只登记逐页核验的公开来源；登记数量
 | [EVD-027](EVD-027-ai-painting-creative-thinking.md) | AI 绘画对儿童创造力影响系统综述（Frontiers 2025） | peer-reviewed | medium | 认知同质化风险 |
 | [EVD-028](EVD-028-llm-scaffolding-pbl-autonomy.md) | LLM PBL 脚手架：个人自主与适度约束（Systems 2025） | peer-reviewed | medium | 个人使用+适度约束设计原则 |
 | [EVD-029](EVD-029-china-wtp-gatekeeper-model.md) | 中国家长 WTP 守门人模型（Frontiers 2026） | peer-reviewed | medium | 中国 WTP 实证与信任路径 |
+| [EVD-030](EVD-030-storyprompt-children-storytelling.md) | StoryPrompt AI 故事创作提升儿童创意（CHI 2025, n=40） | peer-reviewed | medium | 儿童样本 AI 创意效果直接验证 |
+| [EVD-031](EVD-031-creativebot-llm-robot-children.md) | CreativeBot 自主 LLM 机器人促进儿童创造力（Frontiers 2024, n=93） | peer-reviewed | medium | 自主 LLM vs 手动操控，最大规模儿童样本 |
+| [EVD-032](EVD-032-quality-homogenization-tradeoff.md) | 质量-同质化权衡：提示设计可反转同质化为多样化（arXiv 2026, n=6875） | peer-reviewed | medium | 去同质化交互层验证 |
+| [EVD-033](EVD-033-semantic-repulsion-technique.md) | 语义排斥技术 SRT 抗同质化（arXiv 2026, 多样性+85-167%） | peer-reviewed | medium | 去同质化系统层验证 |
+| [EVD-034](EVD-034-gai-scaffolding-elementary-ct.md) | GAI 元认知脚手架 > 概念性脚手架（CHI 2026, 小学生） | peer-reviewed | medium | 引导方式对比：元认知 > 概念性 |
