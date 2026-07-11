@@ -182,8 +182,8 @@ Aurora 是面向 4-8 岁儿童的 AI 创作陪伴工具。孩子可以用语音�
 
 ## 交付物
 
-1. 问卷定稿和招募说明（仓库内只保存无个人信息版本）
-2. 聚合数据表：PSM 四问分布、OPP/PMC/PME、分层结果
+1. 问卷定稿和招募说明（仓库内只保存无个人信息版本）→ [RES-003-WTP-questionnaire](RES-003-WTP-questionnaire.md)
+2. 聚合数据表：PSM 四问分布、OPP/PMC/PME、分层结果 → [RES-003-WTP-analysis-tables](RES-003-WTP-analysis-tables.md)
 3. 新增 EVD 记录：`EVD-035`，记录定价实验结果和局限
 4. 更新 RES-003：条件 2 是否满足、WTP 置信度是否调整
 5. 更新 HYP-002/HYP-003：若价格不可行，标记商业约束对假设的影响
