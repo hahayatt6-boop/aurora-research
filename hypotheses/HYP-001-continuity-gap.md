@@ -1,10 +1,10 @@
 ---
 id: HYP-001
 title: 跨项目连续性是主要平台缺口
-status: proposed
+status: inconclusive
 owner: 研究负责人
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-11
 gates: ADR-001
 ---
 
@@ -29,11 +29,20 @@ gates: ADR-001
 
 ## 支持证据
 
-暂未登记证据。
+- [EVD-001](../evidence/EVD-001-scratch-long-lived-creative-ecosystem.md)：项目、社区和身份连续性与长期生态并存，但因果未证实。
+- [EVD-004](../evidence/EVD-004-first-lego-league-continuity.md)：年度赛季、团队关系和年龄梯度形成组织性连续性。
+- [EVD-007](../evidence/EVD-007-amazon-halo-wind-down.md)：服务终止会破坏设备、应用和数据的长期可用性。
 
 ## 反对证据
 
-暂未登记证据。RES-001 必须主动寻找长期存在的单一用途产品，以及失败的连续性或成长档案产品。
+- [EVD-002](../evidence/EVD-002-microbit-distribution-ecosystem.md)：没有公开完整个人成长档案仍能长期扩张，分发和资源生态更直接可见。
+- [EVD-005](../evidence/EVD-005-disney-infinity-closure.md)：已有实体—数字与账户生态仍终止，且出现显著库存减记。
+- [EVD-006](../evidence/EVD-006-stadia-adoption-closure.md)：官方直接将关闭归因于未达预期采用，而非连续性不足。
+- [EVD-008](../evidence/EVD-008-digital-games-learning-meta-analysis.md)与[EVD-009](../evidence/EVD-009-gamification-novelty.md)：学习价值依具体设计，短期参与和新奇不能替代长期效果。
+
+## 拟定判定
+
+`inconclusive`。现有证据显示连续性特征与长期生态共存，也显示完整统一成长档案不是已观察到的必要条件；但缺少能区分连续性与分发、经济性、可信成人支持等替代解释相对贡献的因果或可比证据。最终状态等待独立反方审阅确认冲突已解决。
 
 ## 决策影响
 

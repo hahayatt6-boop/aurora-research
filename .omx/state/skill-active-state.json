@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "active": false,
+  "skill": "autopilot",
+  "keyword": "",
+  "phase": "ultragoal",
+  "activated_at": "2026-07-10T18:49:48.749Z",
+  "updated_at": "2026-07-11T07:47:26.466Z",
+  "source": "state-operations",
+  "active_skills": []
+}

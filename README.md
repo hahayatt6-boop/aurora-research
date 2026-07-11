@@ -17,6 +17,7 @@ Aurora 是一个研究项目，用于判断：在 AI 时代，儿童创造力教
 5. [决策日志](decisions/README.md)解释项目如何根据证据行动。
 6. [研究路线图](docs/roadmap/RESEARCH_ROADMAP.md)安排八个研究主题。
 7. [MVP 准入门](mvp/README.md)防止在研究支持前进入产品开发。
+8. [多智能体协作规程](docs/agents/MULTI_AGENT_COLLABORATION.md)约束代理分工、隐私前门、反方审阅和落库验证。
 
 ## 当前重点
 

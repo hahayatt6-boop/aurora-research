@@ -1,0 +1,329 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1783742597795,
+  "projectRoot": "/Users/candy/.traycer/worktrees/hahayatt6-boop__aurora-research/traycer-quiet-yak",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "scripts",
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "collaboration": {
+      "path": "collaboration",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1783742597784,
+      "keyFiles": [
+        "ARV-001-res-001.md",
+        "TASK-001-res-001-evidence-collection.md"
+      ]
+    },
+    "decisions": {
+      "path": "decisions",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1783742597785,
+      "keyFiles": [
+        "ADR-000-research-before-product.md",
+        "ADR-001-res-001-direction.md",
+        "README.md"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1783742597785,
+      "keyFiles": []
+    },
+    "evidence": {
+      "path": "evidence",
+      "purpose": null,
+      "fileCount": 11,
+      "lastAccessed": 1783742597786,
+      "keyFiles": [
+        "EVD-001-scratch-long-lived-creative-ecosystem.md",
+        "EVD-002-microbit-distribution-ecosystem.md",
+        "EVD-003-code-club-network.md",
+        "EVD-004-first-lego-league-continuity.md",
+        "EVD-005-disney-infinity-closure.md"
+      ]
+    },
+    "hypotheses": {
+      "path": "hypotheses",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1783742597786,
+      "keyFiles": [
+        "HYP-001-continuity-gap.md",
+        "README.md"
+      ]
+    },
+    "mvp": {
+      "path": "mvp",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1783742597787,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "research": {
+      "path": "research",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1783742597787,
+      "keyFiles": [
+        "README.md",
+        "RES-001-platform-gap.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 2,
+      "lastAccessed": 1783742597787,
+      "keyFiles": [
+        "__init__.py",
+        "validate_repository.py"
+      ]
+    },
+    "templates": {
+      "path": "templates",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1783742597787,
+      "keyFiles": [
+        "adversarial-review.md",
+        "agent-task.md",
+        "decision-record.md",
+        "evidence-note.md",
+        "hypothesis.md"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 2,
+      "lastAccessed": 1783742597787,
+      "keyFiles": [
+        "__init__.py",
+        "test_validate_repository.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "collaboration/ARV-002-res-002.md",
+      "accessCount": 12,
+      "lastAccessed": 1783751582686,
+      "type": "file"
+    },
+    {
+      "path": "research/RES-002-economics-willingness-to-pay.md",
+      "accessCount": 8,
+      "lastAccessed": 1783751600216,
+      "type": "file"
+    },
+    {
+      "path": "hypotheses/HYP-002-willingness-to-pay.md",
+      "accessCount": 7,
+      "lastAccessed": 1783751613196,
+      "type": "file"
+    },
+    {
+      "path": "decisions/ADR-002-res-002-direction.md",
+      "accessCount": 5,
+      "lastAccessed": 1783750482013,
+      "type": "file"
+    },
+    {
+      "path": "research/README.md",
+      "accessCount": 4,
+      "lastAccessed": 1783751629518,
+      "type": "file"
+    },
+    {
+      "path": "decisions/ADR-001-res-001-direction.md",
+      "accessCount": 3,
+      "lastAccessed": 1783743020172,
+      "type": "file"
+    },
+    {
+      "path": "decisions/README.md",
+      "accessCount": 3,
+      "lastAccessed": 1783749668230,
+      "type": "file"
+    },
+    {
+      "path": "hypotheses/README.md",
+      "accessCount": 3,
+      "lastAccessed": 1783751631065,
+      "type": "file"
+    },
+    {
+      "path": "research/RES-001-platform-gap.md",
+      "accessCount": 2,
+      "lastAccessed": 1783743115118,
+      "type": "file"
+    },
+    {
+      "path": "collaboration/TASK-001-res-001-evidence-collection.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749162320,
+      "type": "file"
+    },
+    {
+      "path": "evidence/README.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749649169,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-011-kano-hardware-economics-failure.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749790469,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-012-osmo-byjus-bankruptcy-hardware.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749791248,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-013-us-bls-family-education-expenditure.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749792178,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-014-family-learning-subscription-market.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749792758,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-015-edtech-cac-profitability-challenge.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749793398,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-016-parent-involvement-ai-education-effect.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749794320,
+      "type": "file"
+    },
+    {
+      "path": "evidence/EVD-017-consumer-ai-willingness-to-pay.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749794841,
+      "type": "file"
+    },
+    {
+      "path": "collaboration/ARV-001-res-001.md",
+      "accessCount": 2,
+      "lastAccessed": 1783749839912,
+      "type": "file"
+    },
+    {
+      "path": "collaboration/TASK-002-res-002-economics-willingness-to-pay.md",
+      "accessCount": 2,
+      "lastAccessed": 1783751657235,
+      "type": "file"
+    },
+    {
+      "path": "docs/charter/RESEARCH_CHARTER.md",
+      "accessCount": 2,
+      "lastAccessed": 1783752703767,
+      "type": "file"
+    },
+    {
+      "path": "docs/roadmap/RESEARCH_ROADMAP.md",
+      "accessCount": 2,
+      "lastAccessed": 1783752766513,
+      "type": "file"
+    },
+    {
+      "path": "decisions/ADR-000-research-before-product.md",
+      "accessCount": 2,
+      "lastAccessed": 1783752767322,
+      "type": "file"
+    },
+    {
+      "path": "scripts/validate_repository.py",
+      "accessCount": 1,
+      "lastAccessed": 1783742794076,
+      "type": "file"
+    },
+    {
+      "path": "templates/agent-task.md",
+      "accessCount": 1,
+      "lastAccessed": 1783742818363,
+      "type": "file"
+    },
+    {
+      "path": "docs/agents/MULTI_AGENT_COLLABORATION.md",
+      "accessCount": 1,
+      "lastAccessed": 1783742880572,
+      "type": "file"
+    },
+    {
+      "path": "templates/hypothesis.md",
+      "accessCount": 1,
+      "lastAccessed": 1783748002600,
+      "type": "file"
+    },
+    {
+      "path": "templates/research-report.md",
+      "accessCount": 1,
+      "lastAccessed": 1783748002616,
+      "type": "file"
+    },
+    {
+      "path": "templates/evidence-note.md",
+      "accessCount": 1,
+      "lastAccessed": 1783748003615,
+      "type": "file"
+    },
+    {
+      "path": "templates/decision-record.md",
+      "accessCount": 1,
+      "lastAccessed": 1783748003974,
+      "type": "file"
+    },
+    {
+      "path": "templates/adversarial-review.md",
+      "accessCount": 1,
+      "lastAccessed": 1783749833232,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

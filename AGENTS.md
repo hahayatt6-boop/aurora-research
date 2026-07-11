@@ -24,4 +24,4 @@
 
 ## 工作流程
 
-使用 [`templates/`](templates/) 中的模板，更新对应索引，运行 `python3 scripts/validate_repository.py`，并在提交中写明验证结果。研究报告完成并不自动授权产品开发；只有明确的决策记录才能打开 [`mvp/`](mvp/) 准入门。
+多智能体协作遵循 [`docs/agents/MULTI_AGENT_COLLABORATION.md`](docs/agents/MULTI_AGENT_COLLABORATION.md)。使用 [`templates/`](templates/) 中的模板，更新对应索引，运行 `python3 -m unittest discover -s tests -v` 和 `python3 scripts/validate_repository.py`，并在提交中写明验证结果。研究报告完成并不自动授权产品开发；只有已接受的明确决策记录才能打开 [`mvp/`](mvp/) 准入门。
