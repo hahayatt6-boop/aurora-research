@@ -33,3 +33,9 @@ RES-001 已进入 `active`。只登记逐页核验的公开来源；登记数量
 | [EVD-015](EVD-015-edtech-cac-profitability-challenge.md) | 37% 小型 EdTech 公司面临不可盈利的 CAC（Forrester 2024） | market-data | medium | EdTech 获客成本挑战 |
 | [EVD-016](EVD-016-parent-involvement-ai-education-effect.md) | 家长参与调节 AI 教育效果（Frontiers 2026） | peer-reviewed | medium | 可信成人支持与感知价值 |
 | [EVD-017](EVD-017-consumer-ai-willingness-to-pay.md) | 64% 消费者不愿为 AI 功能额外付费（Zuora 2025） | market-data | medium | AI 功能加价阻力 |
+| [EVD-018](EVD-018-llm-identifies-developmental-abilities.md) | LLM 从游戏行为识别发展能力（2024） | peer-reviewed | medium | AI 引导人可行性 |
+| [EVD-019](EVD-019-kenya-dce-wtp.md) | 肯尼亚 DCE：AI + 人工监督 WTP 数据（2024） | peer-reviewed | medium | 双轮驱动定价参照 |
+| [EVD-020](EVD-020-ihuman-financials.md) | iHuman 财务数据（2024—2025） | company-material | high | 中文儿童 AI 教育经济性 |
+| [EVD-021](EVD-021-playtag-storyline.md) | PLAYTAG StoryLine：AI 引导人 + 故事创作（2024） | company-material | medium | 双轮驱动产品参照 |
+| [EVD-022](EVD-022-bfi-chicago-ai-peer.md) | BFI 芝加哥：AI 同伴评估 vs 人类评估（2025） | peer-reviewed | medium | 真人监督层价值 |
+| [EVD-023](EVD-023-frontiers-wtp-china.md) | Frontiers WTP：中国家长为 AI 教育付费（2026） | peer-reviewed | medium | 付费意愿参照 |

@@ -1,7 +1,7 @@
 ---
 id: HYP-002
 title: 核心目标家庭对儿童 AI/STEAM 产品的付费意愿足以支撑商业可行性
-status: inconclusive
+status: weakened
 owner: 研究负责人
 created: 2026-07-11
 updated: 2026-07-11

@@ -1,7 +1,7 @@
 ---
 id: ADR-002
 title: 请项目负责人评估 ADR-001 停止阈值，在提供差异化条件前暂停软件订阅方向推进
-status: proposed
+status: superseded
 created: 2026-07-11
 deciders: 项目负责人
 research: RES-002

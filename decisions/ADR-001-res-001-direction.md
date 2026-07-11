@@ -1,7 +1,7 @@
 ---
 id: ADR-001
 title: 暂缓连续性方向并优先验证运营经济性与可信成人支持
-status: proposed
+status: superseded
 created: 2026-07-11
 deciders: 项目负责人
 research: RES-001
