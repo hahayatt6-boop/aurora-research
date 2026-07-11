@@ -39,3 +39,9 @@ RES-001 已进入 `active`。只登记逐页核验的公开来源；登记数量
 | [EVD-021](EVD-021-playtag-storyline.md) | PLAYTAG StoryLine：AI 引导人 + 故事创作（2024） | company-material | medium | 双轮驱动产品参照 |
 | [EVD-022](EVD-022-bfi-chicago-ai-peer.md) | BFI 芝加哥：AI 同伴评估 vs 人类评估（2025） | peer-reviewed | medium | 真人监督层价值 |
 | [EVD-023](EVD-023-frontiers-wtp-china.md) | Frontiers WTP：中国家长为 AI 教育付费（2026） | peer-reviewed | medium | 付费意愿参照 |
+| [EVD-024](EVD-024-mentigo-ai-mentor-cps.md) | Mentigo AI 导师指导中学生 CPS（CHI 2025） | peer-reviewed | medium | AI 引导人状态识别与适应性策略 |
+| [EVD-025](EVD-025-llm-creative-pbl-children.md) | LLM 创意 PBL 儿童研究（IJHCS 2025） | peer-reviewed | medium | 依赖模式与设计建议 |
+| [EVD-026](EVD-026-scratch-copilot-youth-coding.md) | Scratch Copilot 7-12 岁编程（arXiv 2025） | peer-reviewed | medium | 空白画布阶段价值与过度依赖 |
+| [EVD-027](EVD-027-ai-painting-creative-thinking.md) | AI 绘画对儿童创造力影响系统综述（Frontiers 2025） | peer-reviewed | medium | 认知同质化风险 |
+| [EVD-028](EVD-028-llm-scaffolding-pbl-autonomy.md) | LLM PBL 脚手架：个人自主与适度约束（Systems 2025） | peer-reviewed | medium | 个人使用+适度约束设计原则 |
+| [EVD-029](EVD-029-china-wtp-gatekeeper-model.md) | 中国家长 WTP 守门人模型（Frontiers 2026） | peer-reviewed | medium | 中国 WTP 实证与信任路径 |
