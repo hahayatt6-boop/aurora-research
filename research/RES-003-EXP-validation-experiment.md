@@ -1,16 +1,18 @@
 ---
 id: RES-003-EXP
 title: "RES-003 验证实验：中国儿童 AI 引导人设计原则验证"
-status: planned
+status: active
 owner: 研究负责人
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-07-12
 decision: ADR-003
 related_evidence: [EVD-026, EVD-027, EVD-030, EVD-031, EVD-032, EVD-033]
 related_hypotheses: [HYP-003]
 related_research: [RES-003]
 confidence: low
 ---
+
+> 2026-07-12 更新：在 [ARV-006](../collaboration/ARV-006-wtp-waiver-ruling.md) 裁定跳过 RES-003-WTP 问卷后，本实验成为 RES-003 的当前下一步。执行准备包见 [RES-003-EXP-execution-package](RES-003-EXP-execution-package.md)。
 
 # 研究问题
 
@@ -22,7 +24,7 @@ confidence: low
 
 ## 决策影响
 
-本实验是 RES-003 从 `active` 推进至 `review` 的前置条件之一（ARV-004 U-1/U-2）。若三项原则中任何一项被否定，须重新评估 ADR-003 方向或修改 HYP-003 约束条件。
+本实验是 RES-003 从 `active` 推进至 `review` 的当前关键前置条件。ARV-006 已将 WTP 问卷从当前排序中移除，但未把 WTP 证据升级为已满足。若三项原则中任何一项被否定，须重新评估 ADR-003 方向或修改 HYP-003 约束条件。
 
 ## ARV-004 缺口回应
 
@@ -48,7 +50,7 @@ confidence: low
 
 - 不测试原则 1（个人使用模式）和原则 2（适度约束）——已有部分验证（EVD-028, EVD-030, EVD-031）
 - 不测试原则 6（批判性验证训练）——需更成熟的原型，不适合首轮验证
-- 不测试 WTP——经济性验证需要不同方法论（定价实验），不在本实验范围
+- 不测试 WTP——ARV-006 已裁定跳过问卷并以定性通过假设推进；该假设不在本实验中验证
 - 不收集儿童姓名、照片、录音、精确位置或健康信息
 
 ---

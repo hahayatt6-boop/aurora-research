@@ -1,16 +1,18 @@
 ---
 id: RES-003-WTP
 title: "RES-003 补充实验：中国家长 WTP 定价验证"
-status: planned
+status: superseded
 owner: 研究负责人
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-07-12
 decision: ADR-003
 related_evidence: [EVD-017, EVD-023, EVD-029]
 related_hypotheses: [HYP-002, HYP-003]
 related_research: [RES-002, RES-003]
 confidence: low
 ---
+
+> 2026-07-12 更新：项目负责人裁定跳过本问卷发放，见 [ARV-006](../collaboration/ARV-006-wtp-waiver-ruling.md)。本方案保留为未来可恢复的定价实验设计，不再作为当前推进顺序的阻断项。该裁定不产生真实 WTP 结果，不得引用为 ARV-005 条件 2 的实证满足。
 
 # 研究问题
 
@@ -190,7 +192,7 @@ Aurora 是一个早期产品概念，设想为面向 4-8 岁儿童的 AI 创作�
 4. 发放执行包：[RES-003-WTP-fieldwork-package](RES-003-WTP-fieldwork-package.md)，用于交给问卷平台或外部执行人员
 5. 发放与聚合交接清单：[RES-003-WTP-launch-checklist](RES-003-WTP-launch-checklist.md)
 6. 计算脚本：`python3 scripts/calculate_wtp_psm.py --psm-input <聚合PSM.csv> --price-output <价格点.csv> --demand-input <需求量输入.csv> --demand-output <需求量输出.csv>`
-7. 新增 pending EVD scaffold：[EVD-035](../evidence/EVD-035-china-parent-wtp-pricing-experiment.md)，真实结果产生前不得作为支持性证据
+7. skipped EVD scaffold：[EVD-035](../evidence/EVD-035-china-parent-wtp-pricing-experiment.md)，问卷未执行且无真实结果，不得作为支持性证据
 8. 更新 RES-003：条件 2 是否满足、WTP 置信度是否调整
 9. 更新 HYP-002/HYP-003：若价格不可行，标记商业约束对假设的影响
 

@@ -11,11 +11,11 @@
     "ultraqa"
   ],
   "handoff_artifacts": {
-    "context_snapshot_path": ".omx/context/res-003-wtp-evidence-pipeline-20260712T015119Z.md",
-    "deep_interview": ".omx/specs/deep-interview-res-003-wtp-evidence-pipeline.md",
+    "context_snapshot_path": ".omx/context/res-003-wtp-waiver-exp-execution-20260712T075450Z.md",
+    "deep_interview": ".omx/specs/deep-interview-res-003-wtp-waiver-exp-execution.md",
     "ralplan": {
-      "prd": ".omx/plans/prd-res-003-wtp-evidence-pipeline.md",
-      "test_spec": ".omx/plans/test-spec-res-003-wtp-evidence-pipeline.md"
+      "prd": ".omx/plans/prd-res-003-wtp-waiver-exp-execution.md",
+      "test_spec": ".omx/plans/test-spec-res-003-wtp-waiver-exp-execution.md"
     },
     "ralplan_consensus_gate": {
       "required": true,
@@ -30,61 +30,74 @@
       ],
       "ralplan_architect_review": {
         "agent_role": "architect",
-        "agent_id": "019f5424-a0f0-7fc1-a746-2029ac993a3c",
+        "agent_id": "019f5553-6779-7a92-bf77-ae1d3bc22dc0",
         "verdict": "approve",
         "architectural_status": "CLEAR",
-        "sequence_order": 1
+        "sequence_order": 1,
+        "evidence": "Approved ARV-006 waiver sequencing as risk acceptance, not evidence; confirmed no WTP empirical satisfaction, RES-003-WTP/EVD-035 skipped/no-result consistency, RES-003-EXP active next step, MVP closed, and privacy boundaries strict."
       },
       "ralplan_critic_review": {
         "agent_role": "critic",
-        "agent_id": "019f5425-4cd3-7d40-bfd5-759a71836ea7",
+        "agent_id": "019f5555-0c75-7f73-9b7b-6e3bc8aa8f92",
         "verdict": "approve",
-        "critic_status": "CLEAR",
-        "sequence_order": 2
+        "critic_status": "WATCH",
+        "sequence_order": 2,
+        "finding": "RES-003-WTP pricing experiment still said pending EVD scaffold while EVD-035 is skipped scaffold.",
+        "resolution": "Updated RES-003-WTP-pricing-experiment.md to say skipped EVD scaffold with no real results; local grep confirmed no pending EVD scaffold residue."
       },
       "complete": true
-    },
+    }
+    ,
     "ultragoal": {
       "status": "complete",
-      "completed_at": "2026-07-12T02:29:25Z",
+      "completed_at": "2026-07-12T07:59:45Z",
       "changed_files": [
-        ".omx/context/res-003-wtp-evidence-pipeline-20260712T015119Z.md",
-        ".omx/specs/deep-interview-res-003-wtp-evidence-pipeline.md",
-        ".omx/plans/prd-res-003-wtp-evidence-pipeline.md",
-        ".omx/plans/test-spec-res-003-wtp-evidence-pipeline.md",
+        ".omx/context/res-003-wtp-waiver-exp-execution-20260712T075450Z.md",
+        ".omx/specs/deep-interview-res-003-wtp-waiver-exp-execution.md",
+        ".omx/plans/prd-res-003-wtp-waiver-exp-execution.md",
+        ".omx/plans/test-spec-res-003-wtp-waiver-exp-execution.md",
         ".omx/ultragoal/ledger.jsonl",
-        "evidence/EVD-035-china-parent-wtp-pricing-experiment.md",
-        "research/RES-003-WTP-launch-checklist.md",
-        "evidence/README.md",
-        "research/RES-003-WTP-pricing-experiment.md",
         ".omx/state/autopilot-state.json",
-        ".omx/state/skill-active-state.json"
+        ".omx/state/skill-active-state.json",
+        "collaboration/ARV-006-wtp-waiver-ruling.md",
+        "collaboration/ARV-004-res-003.md",
+        "collaboration/ARV-005-conditions-ruling.md",
+        "research/RES-003-EXP-execution-package.md",
+        "research/RES-003-EXP-validation-experiment.md",
+        "research/RES-003-WTP-pricing-experiment.md",
+        "research/RES-003-ai-guide-efficacy.md",
+        "research/README.md",
+        "evidence/EVD-035-china-parent-wtp-pricing-experiment.md",
+        "evidence/README.md",
+        "decisions/ADR-003.md",
+        "hypotheses/HYP-003-ai-guide-efficacy.md"
       ],
       "verification": [
-        "python3 -m unittest discover -s tests -v",
-        "python3 scripts/validate_repository.py",
-        "python3 scripts/calculate_wtp_psm.py --psm-input research/RES-003-WTP-psm-distribution-template.csv --price-output /tmp/res-003-wtp-price-points.csv --demand-input research/RES-003-WTP-demand-scenario-template.csv --demand-output /tmp/res-003-wtp-demand-scenario.csv",
-        "grep sanity for positive WTP/MVP/status claims"
+        "python3 -m unittest discover -s tests -v: 17 tests passed",
+        "python3 scripts/validate_repository.py: passed",
+        "git diff --check: passed",
+        "JSON/JSONL parse check: passed",
+        "adversarial scans for WTP empirical satisfaction, MVP authorization, privacy leakage, and mvp files: no blocking positive claims"
       ],
-      "boundary": "EVD-035 remains a pending scaffold; it must not be cited as ARV-005 condition 2 satisfied or as real WTP evidence."
+      "boundary": "ARV-006 is sequencing-only risk acceptance; WTP remains unquantified and EVD-035 remains skipped/no-result. RES-003-EXP is research-only and MVP remains closed."
     },
     "code_review": {
       "recommendation": "APPROVE",
       "architectural_status": "CLEAR",
-      "agent_id": "019f5428-fbf0-7bb3-9088-8ef9e27e6081",
+      "agent_id": "019f5557-8cd9-79e1-9b38-8955ffb9c23c",
       "findings": "no findings",
-      "evidence": "Independent reviewer checked all requested files, ran unit tests, repository validator, WTP empty-template smoke test, JSON/JSONL parsing, git diff --check, and keyword scans."
+      "evidence": "Reviewed 19 changed/untracked files; confirmed ARV-006 sequencing-only risk acceptance, EVD-035 skipped/no-result, RES status consistency, EXP privacy/consent boundaries, Autopilot state/ledger coherence; reran unit tests, repository validator, git diff --check, JSON/JSONL parsing, and targeted scans."
     },
     "ultraqa": {
       "clean": true,
       "skipped": false,
-      "completed_at": "2026-07-12T02:32:17Z",
+      "completed_at": "2026-07-12T08:02:43Z",
       "evidence": [
         "python3 -m unittest discover -s tests -v: 17 tests passed",
         "python3 scripts/validate_repository.py: passed",
-        "calculate_wtp_psm blank-template smoke test: all price points no_data and demand indices zero",
         "git diff --check: passed",
-        "adversarial keyword scans found only negative/pending guardrail statements, not positive WTP/MVP/status claims"
+        "JSON/JSONL parse check: passed",
+        "adversarial scans found only negative guardrail statements for WTP satisfaction/MVP authorization; mvp directory unchanged except README-only state"
       ]
     }
   },
@@ -99,7 +112,7 @@
     "reason": null
   },
   "return_to_ralplan_reason": null,
-  "completed_at": "2026-07-12T02:32:17Z",
+  "completed_at": "2026-07-12T08:02:43Z",
   "run_outcome": "finish",
   "lifecycle_outcome": "finished"
 }

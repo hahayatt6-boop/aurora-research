@@ -50,4 +50,4 @@ RES-001 已进入 `active`。只登记逐页核验的公开来源；登记数量
 | [EVD-032](EVD-032-quality-homogenization-tradeoff.md) | 质量-同质化权衡：提示设计可反转同质化为多样化（arXiv 2026, n=6875） | peer-reviewed | medium | 去同质化交互层验证 |
 | [EVD-033](EVD-033-semantic-repulsion-technique.md) | 语义排斥技术 SRT 抗同质化（arXiv 2026, 多样性+85-167%） | peer-reviewed | medium | 去同质化系统层验证 |
 | [EVD-034](EVD-034-gai-scaffolding-elementary-ct.md) | GAI 元认知脚手架 > 概念性脚手架（CHI 2026, 小学生） | peer-reviewed | medium | 引导方式对比：元认知 > 概念性 |
-| [EVD-035](EVD-035-china-parent-wtp-pricing-experiment.md) | 中国家长 WTP 定价实验（pending scaffold，尚无真实结果） | primary-research | low | RES-003-WTP 结果记录框架；不得作为条件 2 已满足证据 |
+| [EVD-035](EVD-035-china-parent-wtp-pricing-experiment.md) | 中国家长 WTP 定价实验（skipped scaffold，无真实结果） | primary-research | low | ARV-006 跳过问卷记录；不得作为条件 2 已满足证据 |

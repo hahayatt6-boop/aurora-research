@@ -4,7 +4,7 @@ title: "AI 引导人在适度约束下能有效支持儿童创造力发展，且
 status: testing
 owner: 研究负责人
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-07-12
 gates: ADR-003
 ---
 
@@ -58,6 +58,8 @@ AI 引导人在以下六项约束条件下能有效支持儿童（4-12 岁）的
 - 若否定：需重新评估 ADR-003 方向，考虑转向纯创作工具或真人引导模式
 - 若无法判断：暂缓 MVP，优先进行小规模验证实验
 
+2026-07-12 更新：ARV-006 裁定跳过 RES-003-WTP 问卷，HYP-003 的当前推进不再等待 WTP 定价实验；但 WTP 未量化风险仍必须在 MVP 准入门中显式保留。
+
 ## 验证实验
 
-[RES-003-EXP](../research/RES-003-EXP-validation-experiment.md)：中国 5-8 岁儿童验证实验，覆盖原则 3（空白画布启动）、原则 4（依赖监控）和原则 5（去同质化儿童适用性）。
+[RES-003-EXP](../research/RES-003-EXP-validation-experiment.md)：中国 5-8 岁儿童验证实验，覆盖原则 3（空白画布启动）、原则 4（依赖监控）和原则 5（去同质化儿童适用性）。执行准备见 [RES-003-EXP-execution-package](../research/RES-003-EXP-execution-package.md)。

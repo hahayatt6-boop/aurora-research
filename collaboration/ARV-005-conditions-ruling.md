@@ -6,11 +6,13 @@ original_author_or_source: ARV-004
 original_author_id: external-review-fallback-20260711-res003
 claims_reviewed: ARV-004 U-1, U-2
 disposition: accepted
-impact_on_confidence: 条件 1 采用宽松解读+升级路径，RES-003-EXP 满足宽松解读并可升级至严格解读；条件 2 采用严格解读，RES-003 当前未满足，需补充定价实验
-owner_next_step: 研究负责人补充 WTP 定价实验设计；RES-003 在两项条件均满足前保持 active
+impact_on_confidence: 条件 1 采用宽松解读+升级路径；条件 2 原裁定为严格解读且需补充定价实验；2026-07-12 后续 ARV-006 已将 WTP 问卷改为跳过并按低置信度定性通过假设推进
+owner_next_step: 参见 ARV-006；跳过 RES-003-WTP 发放，推进 RES-003-EXP 儿童验证执行准备；RES-003 保持 active
 ---
 
 # 项目负责人裁定：ARV-003 条件解读
+
+> 后续更新：2026-07-12，[ARV-006](ARV-006-wtp-waiver-ruling.md) 覆盖本记录中“条件 2 必须补充定价实验后才能继续排序”的执行要求。ARV-005 的严格证据判断仍保留：没有真实 WTP 数据时，条件 2 不得表述为实证满足。
 
 裁定人：项目负责人
 日期：2026-07-11
@@ -149,4 +151,4 @@ owner_next_step: 研究负责人补充 WTP 定价实验设计；RES-003 在两�
 | U-4: 原则验证状态被高估 | 接受 | 已在 RES-003 中修正 |
 | U-5: WTP 置信度 medium 不适当 | 接受 | 已在 RES-003 中修正为 low |
 
-**ARV-004 disposition 从 `unresolved` 升级为 `accepted`。** 五项冲突均已有裁定或已修正，无残留未解决项。但 RES-003 的状态推进仍受 ARV-003 条件 2 的硬约束——定价实验完成前不可进入 review。
+**ARV-004 disposition 从 `unresolved` 升级为 `accepted`。** 五项冲突均已有裁定或已修正，无残留未解决项。后续 ARV-006 已将条件 2 的执行要求改为项目负责人风险接受；定价实验未完成仍意味着 WTP 证据不得升级。
