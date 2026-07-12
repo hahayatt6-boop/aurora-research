@@ -2,7 +2,7 @@
 
 版本：2026-07-12
 
-用途：把 [RES-003-WTP](RES-003-WTP-pricing-experiment.md) 从仓库内准备推进到仓库外问卷执行，并确保回流到仓库的只有聚合统计。
+用途：把 [RES-003-WTP](RES-003-WTP-pricing-experiment.md) 从仓库内准备推进到仓库外问卷执行，并确保回流到仓库的只有聚合统计。给执行方的完整材料入口见 [RES-003-WTP-fieldwork-package](RES-003-WTP-fieldwork-package.md)。
 
 ## 发放前
 
