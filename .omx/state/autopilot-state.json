@@ -11,11 +11,11 @@
     "ultraqa"
   ],
   "handoff_artifacts": {
-    "context_snapshot_path": ".omx/context/aurora-res-001-research-20260710T184820Z.md",
-    "deep_interview": ".omx/specs/deep-interview-aurora-res-001-research.md",
+    "context_snapshot_path": ".omx/context/res-003-wtp-evidence-pipeline-20260712T015119Z.md",
+    "deep_interview": ".omx/specs/deep-interview-res-003-wtp-evidence-pipeline.md",
     "ralplan": {
-      "prd": ".omx/plans/prd-aurora-res-001-research.md",
-      "test_spec": ".omx/plans/test-spec-aurora-res-001-research.md"
+      "prd": ".omx/plans/prd-res-003-wtp-evidence-pipeline.md",
+      "test_spec": ".omx/plans/test-spec-res-003-wtp-evidence-pipeline.md"
     },
     "ralplan_consensus_gate": {
       "required": true,
@@ -30,35 +30,62 @@
       ],
       "ralplan_architect_review": {
         "agent_role": "architect",
-        "agent_id": "d362071b-a6c6-4417-9ab7-1e15a0329505",
+        "agent_id": "019f5424-a0f0-7fc1-a746-2029ac993a3c",
         "verdict": "approve",
+        "architectural_status": "CLEAR",
         "sequence_order": 1
       },
       "ralplan_critic_review": {
         "agent_role": "critic",
-        "agent_id": "beb062ee-9894-40eb-a7b2-c541b841ee68",
+        "agent_id": "019f5425-4cd3-7d40-bfd5-759a71836ea7",
         "verdict": "approve",
+        "critic_status": "CLEAR",
         "sequence_order": 2
       },
       "complete": true
     },
     "ultragoal": {
-      "brief": ".omx/ultragoal/brief.md",
-      "goals": ".omx/ultragoal/goals.json",
-      "ledger": ".omx/ultragoal/ledger.jsonl",
       "status": "complete",
-      "summary": "51/51 complete; final G051 checkpoint includes quality gate and complete Codex goal snapshot"
+      "completed_at": "2026-07-12T02:29:25Z",
+      "changed_files": [
+        ".omx/context/res-003-wtp-evidence-pipeline-20260712T015119Z.md",
+        ".omx/specs/deep-interview-res-003-wtp-evidence-pipeline.md",
+        ".omx/plans/prd-res-003-wtp-evidence-pipeline.md",
+        ".omx/plans/test-spec-res-003-wtp-evidence-pipeline.md",
+        ".omx/ultragoal/ledger.jsonl",
+        "evidence/EVD-035-china-parent-wtp-pricing-experiment.md",
+        "research/RES-003-WTP-launch-checklist.md",
+        "evidence/README.md",
+        "research/RES-003-WTP-pricing-experiment.md",
+        ".omx/state/autopilot-state.json",
+        ".omx/state/skill-active-state.json"
+      ],
+      "verification": [
+        "python3 -m unittest discover -s tests -v",
+        "python3 scripts/validate_repository.py",
+        "python3 scripts/calculate_wtp_psm.py --psm-input research/RES-003-WTP-psm-distribution-template.csv --price-output /tmp/res-003-wtp-price-points.csv --demand-input research/RES-003-WTP-demand-scenario-template.csv --demand-output /tmp/res-003-wtp-demand-scenario.csv",
+        "grep sanity for positive WTP/MVP/status claims"
+      ],
+      "boundary": "EVD-035 remains a pending scaffold; it must not be cited as ARV-005 condition 2 satisfied or as real WTP evidence."
     },
     "code_review": {
       "recommendation": "APPROVE",
       "architectural_status": "CLEAR",
-      "code_reviewer": "final_code_review APPROVE",
-      "architect": "final_arch_review CLEAR"
+      "agent_id": "019f5428-fbf0-7bb3-9088-8ef9e27e6081",
+      "findings": "no findings",
+      "evidence": "Independent reviewer checked all requested files, ran unit tests, repository validator, WTP empty-template smoke test, JSON/JSONL parsing, git diff --check, and keyword scans."
     },
     "ultraqa": {
       "clean": true,
       "skipped": false,
-      "evidence": "Temporary adversarial harness passed forged accepted ADR, self-review ARV, fenced privacy sample, empty MVP hypotheses, rejected ARV gate."
+      "completed_at": "2026-07-12T02:32:17Z",
+      "evidence": [
+        "python3 -m unittest discover -s tests -v: 17 tests passed",
+        "python3 scripts/validate_repository.py: passed",
+        "calculate_wtp_psm blank-template smoke test: all price points no_data and demand indices zero",
+        "git diff --check: passed",
+        "adversarial keyword scans found only negative/pending guardrail statements, not positive WTP/MVP/status claims"
+      ]
     }
   },
   "review_verdict": {
@@ -72,7 +99,7 @@
     "reason": null
   },
   "return_to_ralplan_reason": null,
+  "completed_at": "2026-07-12T02:32:17Z",
   "run_outcome": "finish",
-  "completed_at": "2026-07-11T07:47:08Z",
   "lifecycle_outcome": "finished"
 }
